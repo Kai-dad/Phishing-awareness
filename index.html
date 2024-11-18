@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Phishing Awareness Website</h1>
+    </header>
+    <div class="container">
+        <div class="education">
+            <h2>What is Phishing?</h2>
+            <p>
+                Phishing is a type of cyber attack in which attackers trick individuals into providing sensitive information such as passwords, credit card numbers, or personal details by pretending to be trustworthy entities.
+            </p>
+	    <h2>Types of phishing:</h2>
+	     <ul>
+		<li>Email phishing</li>
+		<li>Spear phishing (targeted attacks)</li>
+		<li>Whaling (targeting high-level executives)</li>
+		<li>Smishing (sms phishing)</li>
+		<li>Vishing (voice phishing)</li>
+	     </ul>
+            <h3>Common Signs of Phishing:</h3>
+             <ul>
+                <li>Unexpected requests for personal information.</li>
+                <li>Generic greetings or spelling errors in messages.</li>
+                <li>Urgent language or threats to take immediate action.</li>
+                <li>Links that do not match their apparent destination.</li>
+             </ul>
+	    <h3>Prevention measures</h3>
+	      <ul>
+		<li>Verify sender authenticity</li>
+		<li>Check URLs carefully</li>
+		<li>Enable two-factor authentication(2FA)</li>
+		<li>Use reputable antivirus software</li>
+		<li>Monitor accounts regularly</li>
+	      </ul>
+	    <h2><i>Below is a embeded youtube video that educates on phishing</i></h2>
+            
+	    <iframe width="560" height="315" src="https://www.youtube.com/embed/gWGhUdHItto?si=DOwUdsKLSzZ4sIsb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+             <button onclick="startQuiz()">Take the Quiz</button>
+        </div>
+        <div class="quiz">
+            <h2>Phishing Quiz</h2>
+            <div id="quiz-container"></div>
+            <button onclick="submitQuiz()">Submit Quiz</button>
+            <button onclick="goHome()">Home</button> <!-- Home button added here -->
+        </div>
+        <div class="results" style="display:none;">
+            <div class="result"></div>
+            <button onclick="reviewAnswers()">Review Answers</button>
+            <button onclick="retakeQuiz()">Retake Quiz</button>
+            <button onclick="goHome()">Home</button> <!-- Home button added here -->
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background-image: url('phish.jpg'); /* General background for the entire page */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: rgba(0, 0, 0, 0.8); /* This background is the solid background behind the content */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Home Page (Education Section) */
+.education {
+    padding: 40px 20px;
+}
+
+/* Quiz Page */
+.quiz {
+    display: none;
+    padding: 40px 20px;
+}
+
+/* Results Page */
+.results {
+    display: none;
+    padding: 40px 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.quiz-container {
+    margin: 20px 0;
+}
+
+.question {
+    margin: 20px 0;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
